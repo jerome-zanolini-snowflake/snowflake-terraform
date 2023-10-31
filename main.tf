@@ -23,6 +23,9 @@ resource "snowflake_database" "demo_db" {
   comment = "Database for Snowflake Terraform demo 8"
 }
 
+provider "snowflake" {
+}
+
 resource snowflake_schema schema {
   database = "DEMO_DB"
   name     = "bzr_salesforce"

@@ -23,7 +23,3 @@ resource "snowflake_database" "demo_db" {
   comment = "Database for Snowflake Terraform demo 7"
 }
 
-resource snowflake_role role {
-  name    = "role1"
-  comment = "A role."
-}

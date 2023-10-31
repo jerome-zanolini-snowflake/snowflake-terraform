@@ -20,7 +20,7 @@ provider "snowflake" {
 
 resource "snowflake_database" "demo_db" {
   name    = "DEMO_DB"
-  comment = "Database for Snowflake Terraform demo 6"
+  comment = "Database for Snowflake Terraform demo 7"
 }
 
 resource snowflake_role role {

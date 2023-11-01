@@ -26,7 +26,7 @@ resource "snowflake_database" "demo_db" {
 
 
 resource snowflake_schema schema {
-  database = snowflake_database.database.name
+  database = "DEMO_DB"
   name     = "bzr_salesforce"
   comment  = "A schema."
 

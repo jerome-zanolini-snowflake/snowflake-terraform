@@ -25,7 +25,7 @@ resource "snowflake_database" "demo_db" {
 
 resource "snowflake_schema" "tf_demo_schema" {
   database = snowflake_database.demo_db.name
-  name     = "myschema"
+  name     = "myschema2"
 }
 
 resource "snowflake_warehouse" "warehouse" {

@@ -3,13 +3,13 @@ resource "snowflake_database" "main_db" {
   comment = "Database for Snowflake Terraform demo 8"
 }
 
-resource "snowflake_schema" "tf_demo_schema" {
+resource "snowflake_schema" "brz_salesforce_schema" {
   database = snowflake_database.main_db.name
   name     = "brz_salesforce"
 }
 
 
-resource "snowflake_schema" "tf_demo_schema" {
+resource "snowflake_schema" "brz_cegid_schema" {
   database = snowflake_database.main_db.name
   name     = "brz_cegid"
 }

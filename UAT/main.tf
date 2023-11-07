@@ -9,9 +9,6 @@ terraform {
 
 
 
-provider "snowflake" {
-
-}
 
 
 module "snowflake_resources" {

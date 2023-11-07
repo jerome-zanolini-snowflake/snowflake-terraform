@@ -1,13 +1,3 @@
-terraform {
-  required_providers {
-    snowflake = {
-      source = "Snowflake-Labs/snowflake"
-      version = "0.75.0"
-    }
-  }
-}
-
-
 resource "snowflake_database" "main_db" {
   name    = var.database
   comment = "Database for Snowflake Terraform demo 8"

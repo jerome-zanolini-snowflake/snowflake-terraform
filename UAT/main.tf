@@ -7,7 +7,12 @@ terraform {
   }
 }
 
-
+provider "snowflake" {
+  username    = "TERRAFORM"
+  account     = "QN65725"
+  role        = "sysadmin"
+  private_key = var.snowflake_private_key
+}
 
 
 

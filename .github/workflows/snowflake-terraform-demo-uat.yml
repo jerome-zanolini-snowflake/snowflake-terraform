@@ -20,7 +20,7 @@ jobs:
 
       - name: Terraform Format
         id: fmt
-        run: terraform -chdir=./UAT fmt -check
+        run: terraform -chdir=./UAT1 fmt -check
 
       - name: Terraform Init
         id: init

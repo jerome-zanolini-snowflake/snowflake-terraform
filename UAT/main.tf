@@ -19,6 +19,7 @@ module "snowflake_resources" {
   time_travel_in_days = 1
   database            = var.database
   env_name            = var.env_name
+  snowflake_private_key = "fff"
 }
 
 

@@ -3,7 +3,7 @@ name: "Snowflake Terraform Demo Workflow"
 on:
   push:
     branches:
-      - uat
+      - UAT
 
 jobs:
   snowflake-terraform-demo:

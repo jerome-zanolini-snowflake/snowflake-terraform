@@ -15,7 +15,7 @@ module "snowflake_resources" {
   source              = "../modules/snowflake_resources"
   database            = var.database
   env_name            = var.env_name
-  snowflake_private_key = "fff"
+  snowflake_private_key = "fff1"
 }
 
 

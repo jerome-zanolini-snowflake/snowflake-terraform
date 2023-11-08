@@ -12,7 +12,7 @@ provider "snowflake" {
   account     = "PDRRZPQ.PO55117"
   role        = "sysadmin"
   private_key = var.snowflake_private_key
-  authenticator='SNOWFLAKE_JWT'
+  authenticator= "SNOWFLAKE_JWT"
 }
 
 

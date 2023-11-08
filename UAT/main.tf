@@ -9,7 +9,7 @@ terraform {
 
 provider "snowflake" {
   username    = "TERRAFORM"
-  account     = "QN65725"
+  account     = "PDRRZPQ.PO55117"
   role        = "sysadmin"
   private_key = var.snowflake_private_key
 }

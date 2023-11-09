@@ -14,4 +14,9 @@ resource "snowflake_schema" "brz_cegid_schema" {
   name     = "brz_cegid"
 }
 
+resource "snowflake_schema" "silver_customers" {
+  database = snowflake_database.main_db.name
+  name     = "SLV_CUSTOMERS"
+}
+
 

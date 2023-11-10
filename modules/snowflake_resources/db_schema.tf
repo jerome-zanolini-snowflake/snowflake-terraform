@@ -1,5 +1,5 @@
 resource "snowflake_database" "main_db" {
-  name    = ${var.env_name}_DB
+  name    = "${var.env_name}_DB"
   comment = "Database for Snowflake Terraform demo 8"
 }
 

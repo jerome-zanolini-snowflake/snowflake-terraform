@@ -5,18 +5,15 @@ resource "snowflake_database" "main_db" {
 
 resource "snowflake_schema" "brz_salesforce_schema" {
   database = snowflake_database.main_db.name
-  name     = "brz_salesforce"
+  name     = "BRZ_SALESFORCE"
 }
 
 
 resource "snowflake_schema" "brz_cegid_schema" {
   database = snowflake_database.main_db.name
-  name     = "brz_cegid"
+  name     = "BRZ_CEGID"
 }
 
-resource "snowflake_schema" "silver_customers" {
-  database = snowflake_database.main_db.name
-  name     = "SLV_CUSTOMERS"
-}
+
 
 

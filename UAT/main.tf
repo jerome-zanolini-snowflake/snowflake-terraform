@@ -8,10 +8,10 @@ terraform {
 }
 
 provider "snowflake" {
-  username    = "GMOLLARD"
+  username    = "JZANOLINI"
   account     = "ZKNAWKL-LV25056"
   role        = "sysadmin"
-  private_key_path = "C:\\Users\\ext-gmo\\snowflake_tf_snow_key.p8"
+  private_key_path = "C:\\Users\\adm-zan\\.ssh\\SnowFlake\\ZKNAWKL-LV25056\\snowflake_tf_JZANOLINI_key.p8"
   authenticator = "Snowflake"
 }
 
